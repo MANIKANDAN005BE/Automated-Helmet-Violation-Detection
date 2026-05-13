@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/HelmetandNumberplate/train
+val: /content/drive/MyDrive/HelmetandNumberplate/valid
+test: /content/drive/MyDrive/HelmetandNumberplate/test
+
+nc: 5
+names: ['Helmet', 'Non-helmet', 'Non_rider', 'Rider', 'licence_plate']
+
+roboflow:
+  workspace: label-bq9bf
+  project: helmet-and-number-plate-tpxed
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/label-bq9bf/helmet-and-number-plate-tpxed/dataset/2

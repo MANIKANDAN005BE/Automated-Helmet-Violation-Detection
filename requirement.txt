@@ -1,0 +1,28 @@
+Helmet-Detection/               # Main Project Folder (Local System)
+│── static/                     # Static frontend assets
+│   ├── uploads/                # Uploaded files (Images/Videos)
+│   ├── results/                # Processed output images/videos
+│   ├── styles.css              # CSS styles for frontend
+│   ├── script.js               # JavaScript for frontend
+│── templates/                   # HTML templates
+│   ├── index.html              # Main Web UI for upload & detection
+│── video_input/                 # Folder for input videos
+│── video_output/                # Folder for processed video results
+│── yolov11m.pt                  # Trained YOLOv11m model (from Colab)
+│── app.py                        # Flask backend for model inference
+│── requirements.txt              # List of dependencies
+│── database.db                   # SQLite Database (if needed)
+│── logs/                         # Logs folder (for debugging)
+│   ├── server.log                # Flask server logs
+│── README.md                     # Documentation
+│── .gitignore                     # Git ignore file
+
+# Colab Training Folder (Stored in Google Drive)
+My Drive/
+│── Helmet-Detection-Colab/       # Google Colab Training Folder
+│   ├── dataset/                  # YOLO dataset folder
+│   │   ├── train/                 # Training images & labels
+│   │   ├── test/                  # Testing images & labels
+│   │   ├── valid/                 # Validation images & labels
+│   ├── yolov11_training.ipynb      # Google Colab notebook for training
+│   ├── yolov11m.pt                 # Trained YOLOv11m model (Download after training)
